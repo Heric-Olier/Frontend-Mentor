@@ -1,0 +1,41 @@
+@media screen and (max-width: 980px) {
+  .product-preview-card {
+    width: 680px;
+    height: 510px;
+  }
+
+  .product-preview-card__info {
+    padding: 35px 35px;
+  }
+
+  .product-name {
+    font-size: 14px;
+    margin-bottom: 17px;
+  }
+
+  .product-preview-card__title {
+    font-size: 2.5rem;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+  .product-preview-card__description {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 25px;
+  }
+
+  .product-preview-card__price {
+    margin-bottom: 20px;
+  }
+
+  .attribution {
+    bottom: 110px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-preview-card {
+    flex-direction: column;
+  }
+}
