@@ -3,7 +3,7 @@
   --green: #3d8168;
   --white: #fff;
   --black: #161b22;
-  --grey: #5d5d61;
+  --grey: #686869;
   --font-Montserrat: "Montserrat", sans-serif;
   --font-Fraunces: "Fraunces", serif;
 }
@@ -22,9 +22,9 @@ main {
 .product-preview-card {
   background-color: var(--white);
   border-radius: 15px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px rgba(39, 39, 39, 0.1);
   width: 800px;
-  height: 550px;
+  height: 600px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -47,16 +47,26 @@ main {
 .product-preview-card__info {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   height: 100%;
   width: 50%;
-  padding: 0 20px;
+  padding: 45px 45px;
+}
+
+.product-name {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 6px;
+  color: var(--grey);
+  font-family: var(--font-Montserrat);
+  margin-bottom: 20px;
 }
 
 .product-preview-card__title {
   font-family: var(--font-Fraunces);
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 900;
   color: var(--black);
-  margin-bottom: 0.5rem;
+  line-height: 41px;
+  margin-bottom: 40px;
 }
