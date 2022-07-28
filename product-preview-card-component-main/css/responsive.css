@@ -36,6 +36,12 @@
 
 @media screen and (max-width: 768px) {
   .product-preview-card {
+    width: 360px;
+    height: 600px;
     flex-direction: column;
   }
+
+    .product-preview-card__info {
+        width: 100%;
+    }
 }
