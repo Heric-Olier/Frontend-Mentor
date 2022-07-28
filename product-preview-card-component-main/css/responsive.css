@@ -53,31 +53,41 @@
     height: 60%;
   }
 
-    .product-name {
-        font-size: 12px;
-        margin-bottom: 12px;
-    }
+  .product-name {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
 
-    .product-preview-card__title {
-        font-size: 2.2rem;
-        line-height: 35px;
-        margin-bottom: 12px;
-    }
+  .product-preview-card__title {
+    font-size: 2.2rem;
+    line-height: 35px;
+    margin-bottom: 12px;
+  }
 
-    .product-preview-card__description {
-        font-size: 15px;
-        line-height: 24px;
-        margin-bottom: 12px;
-    }
+  .product-preview-card__description {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
 
-    .product-preview-card__price {
-        margin-bottom: 10px;
-    }
+  .product-preview-card__price {
+    margin-bottom: 12px;
+  }
 
-    .attribution {
-        font-size: 12px;
-        bottom: 95px;
-    }
+  .product-preview-card__price-value {
+    font-size: 32px;
+  }
 
+  .product-preview-card__price-discount {
+    font-size: 14px;
+  }
 
+  .product-preview-card__button {
+    font-size: 16px;
+  }
+
+  .attribution {
+    font-size: 12px;
+    bottom: 80px;
+  }
 }
